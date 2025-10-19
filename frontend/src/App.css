@@ -1,0 +1,20 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.weather-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.weather-card {
+  background: #f3f0f8;
+  padding: 15px;
+  border-radius: 10px;
+  width: 180px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
